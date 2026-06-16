@@ -1,0 +1,3 @@
+[workspace]
+members = ["contracts/amm", "contracts/lp-token"]
+resolver = "2"

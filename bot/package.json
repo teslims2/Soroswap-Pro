@@ -1,0 +1,17 @@
+{
+  "name": "soroswap-arb-bot",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "ts-node src/bot.ts",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@stellar/stellar-sdk": "^12.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "ts-node": "^10.9.2",
+    "typescript": "^5"
+  }
+}
